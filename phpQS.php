@@ -41,7 +41,7 @@ use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=".getenv('ACCOUNT_NAME').";AccountKey=".getenv('ACCOUNT_KEY');
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=".getenv('sandriablob').";AccountKey=".getenv('aZ+FdEcN3dZue2ZPMd6iKsq8AEkqdsg4ex8x5jfPyPHsfAhTKuDweQEvj1ITBVFOxc9TJ/T84jIsjPnBnec9dw==');
 
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
